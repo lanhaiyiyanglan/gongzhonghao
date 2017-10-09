@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="textml" charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<link rel="stylesheet" href="css/sm.css">
+<link rel="stylesheet" href="css/feedBack.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/upfile.js"></script>
+<script src="js/addPic.js"></script>
+</head>
+
+<body>
+ <div class="textInfo">
+   <textarea id="feedText" placeholder="请输入您的反馈意见（必填，500字以内" onKeyDown='remainSub2("feedText",500)'></textarea>
+   <ul id="addImg">
+       <li id="addBtn">
+         <img src="images/addAlbum.png" id="imagesAdd">
+         <input id="file" type="file"  onChange="upload(event)">
+       </li>
+    </ul>
+   <div class="submitBtn"><input type="button" value="确认提交"></div>
+ </div>
+</body>
+</html>

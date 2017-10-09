@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.payInfo{padding: 1.5rem 0 1.5rem 0;text-align:center;background:#ffffff;border-bottom: 0.05rem solid #e2e2e2;}
+.payInfo i{display:block;width:3rem;height:3rem;background:url(../images/paySucess.png) no-repeat;background-size:3rem;margin:0 auto;}
+.payInfo p{font-size:0.75rem;padding-top: 0.5rem;}
+.payInfo h3{font-size:1rem;font-weight: normal;}
+.payInfo h3 span{font-size:1.5rem;color:#f08519;vertical-align: middle;font-weight: bold;}
+.paySucess ul{border-top: 0.05rem solid #e2e2e2;border-bottom:0.05rem solid #e2e2e2;min-height:1rem;overflow:hidden;padding:0 0.6rem;background:#fff;margin-top:0.5rem;margin-bottom:1rem;}
+.paySucess ul li{border-top:0.05rem solid #f2f2f2;height:2.2rem;line-height:2.2rem;font-size:0.75rem;}
+.paySucess ul li:first-child{border-top:none;}
+.bottomOperation{padding:0 0.6rem;height:2rem;line-height:2rem;}
+.bottomOperation a{display:block;width:48%;text-align:center;border-radius:0.2rem;font-size:0.75rem;height:1.9rem;line-height:1.9rem;}
+.bottomOperation a#lookFor{background:#4899fa;color:#fff;float:left;border:0.05rem solid #4899fa;}
+.bottomOperation a#backIndex{color:#4899fa;border:0.05rem solid #4899fa;float:right;}
+@media only screen and (max-width:374px){
+ .payInfo{padding: 1.3rem 0 1.3rem 0;}
+ .payInfo i{width:2.7rem;height:2.7rem;background-size:2.7rem;}
+ .payInfo h3{font-size:0.85rem;}
+ .payInfo h3 span{font-size:1.32rem;}
+ .paySucess ul li{height:1.8rem;line-height:1.8rem;font-size:0.64rem;}
+ .bottomOperation{padding:0 0.5rem;height:1.7rem;line-height:1.7rem;}
+ .bottomOperation a{font-size:0.64rem;height:1.6rem;line-height:1.6rem;}
+}
+
+

@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.orderDetail{margin-bottom:2.5rem;}
+.detailBox{border-top:0.05rem solid #e3e3e3;border-bottom:0.05rem solid #e3e3e3;background:#fff;min-height:2rem;overflow:hidden;margin-bottom:0.6rem;padding-bottom: 0.5rem;}
+.detailBox:nth-child(4){padding-bottom:0;}
+.detailBox h3{color:#333333;font-weight:normal;font-size:0.9rem;height:2rem;line-height:2rem;border-bottom: 0.05rem dashed #e3e3e3;}
+.detailBox:first-child h3{color:#4899fa;}
+.detailBox:nth-child(4) h3{border-bottom:none;}
+.detailBox h3 i{display:inline-block;width:0.2rem;height: 1.2rem;background:#4899fa;margin-right: 0.5rem;margin-top: 0.4rem;vertical-align: top;}
+.detailBox h3 span{font-size: 0.9rem;color: #f08519;padding-left: 0.4rem;}
+.detailBox h3 span em{font-style: normal;font-size: 0.6rem;vertical-align: top;}
+.detailBox > p{font-size:0.6rem;color:#333333;padding: 0.5rem 0 0 0.7rem;}
+.detailBox > p span{}
+.detailBox > h4{color:#adadad;font-size:0.6rem;font-weight:normal;padding-left: 0.7rem;padding-top: 0.3rem;}
+.detailBox > h4 span{padding-left:1.5rem;}
+.payOrder{margin-bottom:2rem;}
+.payOrder li{height:3.2rem;line-height:3.2rem;display:block;margin-top:0.6rem;border-top:0.05rem solid #e4e5e7;box-shadow: 0 0.05rem 0.1rem rgba(210,210,210,0.9);background: #ffffff;}
+.payOrder li a{display:block;width:100%;font-size: 0.9rem;color:#656566;text-indent: 4.5rem;height: 3.2rem;}
+.payOrder li a.payByzfb{background: url(../images/zfb.png) no-repeat 45px 50%;background-size:1.4rem;}
+.payOrder li a.payBywx{background: url(../images/wxzf.png) no-repeat 45px 50%;background-size:1.4rem;}
+.payOrder > p{font-size:0.6rem;padding:0.5rem;margin: 0rem;}
+/*mengban*/
+.mengban{display:none;position:absolute;z-index:99;background: rgba(0,0,0,0.7);bottom:0;left:0;width:100%;}
+.mengban .textArea{text-align:center;border-radius:0.5rem;padding: 1.5rem 0rem 0.8rem 0;background: #fff;width: 95%;height:auto;margin: 0 auto;margin-top:45%;}
+.mengban .textArea h3{color: #4899fa;font-size: 0.75rem;font-weight: normal;}
+.mengban .textArea i.success{width: 2.2rem;height: 2.2rem;display:block;margin:0 auto;background: url(../images/success.png) no-repeat 1px 0px;background-size: 2rem;margin-top: 0.5rem;}
+.mengban .textArea > p{font-size: 0.8rem;color: #333333;padding: 0.6rem 0;}
+.mengban .textArea input{
+
+display:block;
+
+width: 6rem;
+
+height: 1.5rem;
+
+line-height: 1.5rem!important;
+
+border-radius:0.3rem;
+
+color:#fff;
+
+border: none;
+
+outline: none;
+
+font-size: 0.7rem;
+
+background: #4899fa;
+
+margin: 0 auto;
+
+}
+/*wxMengban*/
+.wxMengban{display:none;position:absolute;z-index:99;background: rgba(0,0,0,0.7);bottom:0;left:0;width:100%;}
+.wxMengban .wxContent{text-align:center;border-radius:0.5rem;padding: 1rem 0rem 0.2rem 0;background: #fff;width: 85%;height:auto;margin: 0 auto;margin-top: 50%;}
+.wxMengban .wxContent h3{color:#000000;font-size: 0.75rem;font-weight: normal;}
+.wxMengban .wxContent p{font-size:0.6rem;color:#a3a3a3;padding: 0.6rem 0 1rem 0;}
+.wxMengban .wxContent ul{height: 2rem;line-height: 2rem;border-top:0.05rem solid #dfdfdf;}
+.wxMengban .wxContent ul li{float:left;width:50%;box-sizing:border-box;}
+.wxMengban .wxContent ul li:first-child{border-right:0.05rem solid #dfdfdf;}
+.wxMengban .wxContent ul li a{color:#333333;font-size: 0.6rem;}
+
+.privilege,.gift{min-height:1rem;overflow:hidden;position: relative;display: -webkit-box;display: box;margin-top: 0.2rem;}
+.privilege span,.gift span{width:2rem;display: block;}
+.privilege span i,.gift span i{display:inline-block;font-size:0.6rem;font-style:normal;color:#fff;}
+.privilege span i{background:#f23420;padding: 0 5px;border-radius: 0.2rem;}
+.gift span i{background:#ef841a;padding: 0 5px;border-radius: 0.2rem;}
+.privilege h4,.gift h4{font-weight:normal;font-size: 0.65rem;line-height:0.9rem;-webkit-box-flex: 1;box-flex: 1;display: box;display: -webkit-box;color: #333333;}
+.cxiao{padding:0 0.5rem;padding-bottom:0.5rem;}
+.cxiao h3{border-bottom:none;}
+
+
+@media only screen and (max-width:374px){
+.orderDetail{margin-bottom: 2rem;}
+.detailBox h3{font-size: 0.756rem;height: 1.8rem;line-height: 1.8rem;}
+.detailBox h3 i {margin-top: 0.3rem;}
+.payOrder li a{font-size: 0.75rem;height: 2.7rem;}
+.payOrder li {height: 2.7rem;line-height: 2.7rem;}
+.mengban .textArea > p{font-size: 0.756rem;padding: 0.2rem 0;}
+.mengban .textArea i.success{width: 1.5rem;height: 1.5rem;background-size: 1.4rem;margin-top: 0.5rem;}
+.mengban .textArea {padding: 1rem 0rem 0.8rem 0;}
+}

@@ -1,0 +1,83 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="textml" charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<title>关于我们</title>
+<link rel="stylesheet"  href="css/sm.css">
+<link rel="stylesheet"  href="css/aboutUs.css">
+</head>
+
+<body>
+<!--content-->
+<ul class="siteFixed">
+     <li class="on"><a href="#tap1">酒店详情</a></li>
+     <li><a href="#tap2">酒店政策</a></li>
+     <li><a href="#tap3">酒店设施</a></li>
+     <li><a href="#tap4">交通信息</a></li>
+     <i></i>
+</ul>
+<div class="content aboutUs">
+   <div class="banner" id="tap1"></div>
+   <div class="outText">长沙异国风情酒店坐落于历史文化名城长沙景致秀美的湘江河畔，咫尺市中心繁华的商业区，毗邻酒吧文化街。是一家极具异域风情及人文特色的智能化"微五星"酒店。</div>
+   <div class="infoBox" id="tap2">
+      <div class="tit"><span>酒店政策</span></div>
+      <h4>入住时间：14：00以后，离店时间：0：00-12：00</h4>
+      <dl>
+        <dt>儿童与加床</dt>
+        <dd>不接受18岁以下客人单独入住</dd>
+      </dl>
+      <dl>
+        <dt>膳食安排</dt>
+        <dd>西餐早餐rmb20：00中餐早饭rmn20：00</dd>
+      </dl>
+      <dl>
+        <dt>宠物</dt>
+        <dd>允许携带宠物，不收取额外费用</dd>
+      </dl>
+   </div>
+   <div class="infoBox" id="tap3">
+      <div class="tit"><span>酒店设施</span></div>
+      <ul>
+        <li><i class="icon1"></i>24小时热水</li>
+        <li><i class="icon2"></i>吹风机</li>
+        <li><i class="icon3"></i>有线上网</li>
+        <li><i class="icon4"></i>免费WiFi</li>
+        <li><i class="icon5"></i>健身房</li>
+        <li><i class="icon6"></i>免费瓶装水</li>
+        <li><i class="icon7"></i>叫醒服务</li>
+        <li><i class="icon8"></i>行李寄存</li>
+      </ul>
+   </div>
+   <div class="infoBox" id="tap4">
+      <div class="tit"><span>交通信息</span></div>
+      <p>到达酒店可以乘坐101路公交</p>
+      <p>或者地铁3号线某某站a出口左转</p>
+      <p>我是其余的交通信息我是其余的交通信息我是其余的交通信息我是其余的交通信息我是其余的交通信息</p>
+   </div>
+</div>
+<!-- 底部栏 -->
+<nav class="bar bar-tab">
+    <a class="tab-item external active" href="关于我们.html">
+        <span class="icon icon-index"></span>首页
+    </a>
+    <a class="tab-item external" href="反馈意见.html">
+        <span class="icon icon-kf"></span>反馈意见
+    </a>
+</nav>
+<script src="js/jquery.min.js"></script>
+<script>
+$(function(){
+  $(".siteFixed li").click(function(){
+     var index=$(this).index();
+     var Ileft=10+(index)*25
+     $(".siteFixed i").css("left",Ileft+"%");
+     $(this).addClass("on").siblings().removeClass("on");
+  });
+});
+</script>
+</body>
+</html>

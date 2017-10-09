@@ -1,0 +1,92 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.content{background:#fff;}
+.orderText{background:#4899fa;min-height:1rem;overflow:hidden;color:#ffffff;padding: 0.8rem 0.9rem 0.8rem 0.9rem;}
+.orderText i{display:block;width:0;height:0;border-left: 0.4rem solid transparent;border-right: 0.4rem solid transparent;border-top: 0.4rem solid #4899fa;position:absolute;z-index:2;margin-top: 0.75rem;}
+.orderText h3{font-size:0.9rem;font-weight: normal;}
+.orderText p{font-size:0.6rem;line-height: 1rem;}
+.orderText p span{padding: 0 0.3rem;}
+#ydOrder{padding:0 0.9rem;margin-bottom: 3rem;}
+#ydOrder dl{margin-top: 0.6rem;min-height: 1rem;overflow: hidden;}
+#ydOrder dl dt{font-size: 0.75rem;line-height: 1.5rem;}
+#ydOrder dl dd{}
+#ydOrder dl dd .wraperBox{border: 0.05rem solid #f1f1f1;min-height: 1.6rem;overflow: hidden;line-height:1.6rem;position:relative;display: -webkit-box;display: box;border-radius: 0.2rem;}
+#ydOrder dl dd .wraperBox .leftIncon{width:1.5rem;height:1.6rem;border-right: 0.05rem solid #f1f1f1;}
+#ydOrder dl dd .wraperBox .leftIncon i{display:block;width:1.5rem;height:1.6rem;}
+#ydOrder dl dd .wraperBox .leftIncon i.icon1{background:url(../images/book.png) no-repeat center;background-size:0.7rem 0.8rem;}
+#ydOrder dl dd .wraperBox .leftIncon i.icon2{background:url(../images/person.png) no-repeat center;background-size:0.7rem 0.8rem;}
+#ydOrder dl dd .wraperBox .leftIncon i.icon3{background:url(../images/iphone.png) no-repeat center;background-size: 0.6rem 0.8rem;}
+#ydOrder dl dd .wraperBox .leftIncon i.icon4{background:url(../images/seachBook.png) no-repeat center;background-size: 0.8rem 0.8rem;}
+#ydOrder dl dd .wraperBox .rightInfo{-webkit-box-flex: 1;box-flex: 1;display: box;display: -webkit-box;-webkit-box-orient: vertical;-webkit-box-pack: center;}
+#ydOrder dl dd .wraperBox .rightInfo input{width: 100%;border: 0;outline: none;text-indent: 0.7rem;font-size: 0.6rem;height: 1.5rem;}
+#ydOrder dl dd .wraperBox .rightInfo input.addinput{border-top:1px solid #efefef;}
+.changeNum{position:relative;}
+.changeNum > div{float:right;}
+.changeNum a,.changeNum span{display:inline-block;text-align: center;border: 0.05rem solid #0894ec;float: left;line-height: 1.3rem;}
+.changeNum a{width: 1.6rem;height: 1.5rem;}
+.changeNum span{width: 1.6rem;height: 1.5rem;vertical-align: middle;}
+.changeNum a{font-size:1.3rem;}
+.changeNum a.jian{border-top-left-radius: 0.2rem;border-bottom-left-radius: 0.2rem;border: 0.05rem solid #cecece;border-right: none;color: #9d9ea0;}
+.changeNum a.jian.blue{border: 0.05rem solid #0894ec;border-right: none;color: #0894ec;}
+.changeNum a.zeng{border-top-right-radius: 0.2rem;border-bottom-right-radius: 0.2rem;border-left: none;}
+.changeNum span{color: #434343;}
+#ydOrder dl dd textarea{height:5rem;border: 0.05rem solid #efefef;border-radius: 0.2rem;width:100%;}
+.needPay{padding:0.7rem 0.9rem;min-height: 1.8rem;overflow: hidden;}
+.needPay p{float:left;}
+.needPay span{display:block;font-size:0.75rem;color:#333333;height: 1rem;line-height: 1rem;}
+.needPay span i{font-size: 0.7rem;vertical-align: middle;}
+.needPay span i em{font-size:1rem;vertical-align: top;}
+.needPay span i em,.needPay span i{font-style:normal;color:#f08519;}
+.needPay p a{display:block;font-size: 0.7rem;line-height: 1.3rem;cursor: pointer;}
+.needPay input{display:block;float:right;width:7.5rem;height:1.8rem;border-radius:0.4rem;font-size:0.75rem;text-align:center;background:#f08519;color: #fff;border: none;}
+#myRequire{background: url(../../images/rightJt.png) no-repeat 97% 50%;background-size: 0.3rem 0.5rem;}
+.mengban{display:none;position:absolute;z-index:99;background: rgba(0,0,0,0.9);bottom:0;left:0;width:100%;}
+
+.textArea{border-radius:0.5rem;padding: 0 0.5rem;background: #fff;width: 95%;min-height: 1rem;overflow: hidden;margin: 0 auto;box-sizing: border-box;}
+.textArea h3{font-weight:normal;font-size: 0.65rem;color: #333333;padding-bottom: 0.4rem;padding-top: 2rem;}
+.textArea ul{padding:0;}
+.textArea ul li{border-bottom:0.05rem solid #ececec;height:2rem;line-height:2rem;text-align: left;font-size: 0.75rem;list-style: none;position:relative;}
+.textArea ul li.on{color:#489bfb;background: url(../../images/gou.png) no-repeat 98% 50%;}
+.textArea ul li span{font-size:0.75rem;}
+.textArea ul.wifiUl{margin-bottom:1.5rem}
+.ckBox{position:absolute;z-index:2;right:0;top: 0.2rem;}
+
+i#close{width: 1.3rem;height: 1.3rem;background: #fff url(../images/chacha.png) no-repeat;background-size: 1.3rem;position:absolute;z-index:999;margin-top: -0.5rem;right: 0.1rem;border-adius: 0.7rem;border-radius: 50%;}
+
+#mengban2{color:#ffffff;}
+#mengban2 h3{font-size:0.9rem;margin: 0rem 0.5rem;line-height: 2rem;font-weight: normal;margin-top: 2.2rem;}
+#mengban2 h4{font-size:0.6rem;font-weight:normal;border-bottom: 0.05rem solid #787878;padding: 0 0.5rem;line-height: 1.8rem;}
+#mengban2 > ul{padding: 0rem 0.5rem;min-height: 1rem;overflow: hidden;}
+#mengban2 > ul > li{font-size:0.75rem;line-height: 2rem;height: 2rem;}
+#mengban2 > ul > li ul li{width:33.33%;float:left;}
+#mengban2 > ul > li ul li:nth-child(2){text-align:center;}
+#mengban2 > ul > li ul li:nth-child(3){text-align:right;}
+#mengban2 > ul > li ul li.orange{color: #f08519;}
+.totalPay{margin: 0rem 0.5rem;border-top:0.05rem solid #787878;font-size: 0.8rem;line-height: 2rem;text-align: right;}
+.totalPay span{color: #f08519;font-size: 0.75rem;padding-left: 0.5rem;}
+
+#specailDl{margin-top:1rem!important;}
+#specailDl dd .wraperBox{border:none!important;}
+#specailDl dd .wraperBox .leftIncon{width:5rem!important;font-size:0.75rem;border:none!important;}
+#picker{background: url(../images/rightJt.png) no-repeat 97% 50%;background-size: 0.3rem 0.5rem;}
+#ydOrder dl dd .wraperBox .leftIncon i.icon5{background:url(../images/clock2.png) no-repeat center;background-size: 0.75rem 0.75rem;}
+
+.privilege,.gift{min-height:1rem;overflow:hidden;position: relative;display: -webkit-box;display: box;margin-top: 0.2rem;}
+.privilege span,.gift span{width:2rem;display: block;}
+.privilege span i,.gift span i{display:inline-block;font-size:0.6rem;font-style:normal;color:#fff;}
+.privilege span i{background:#f23420;padding: 0 5px;border-radius: 0.2rem;}
+.gift span i{background:#ef841a;padding: 0 5px;border-radius: 0.2rem;}
+.privilege h4,.gift h4{font-weight:normal;font-size: 0.65rem;line-height:0.9rem;-webkit-box-flex: 1;box-flex: 1;display: box;display: -webkit-box;color: #333333;}
+
+@media only screen and (max-width:374px){
+.orderText {padding: 0.7rem;}
+.orderText h3 {font-size: 0.756rem;}
+.orderText p {font-size: 0.55rem;}
+.orderText i {margin-top: 0.65rem;border-left: 0.3rem solid transparent;border-right: 0.3rem solid transparent;border-top: 0.3rem solid #4899fa;}
+#ydOrder {padding: 0 0.6rem;}
+#ydOrder dl dt{font-size: 0.64rem;line-height: 1.28rem;}
+.needPay {padding: 0.7rem 0.5rem;}
+.textArea ul li{height: 1.8rem;line-height: 1.8rem;font-size: 0.65rem;}
+.textArea {padding: 1.2rem 0.5rem 1.5rem 0.5rem;}
+.hotelTime {margin-top: 0.3rem;}
+}

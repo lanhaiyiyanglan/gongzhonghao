@@ -1,0 +1,73 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="textml" charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<title>酒店预订</title>
+<link rel="stylesheet"  href="css/sm.css">
+<link rel="stylesheet"  href="css/hotelYd.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body style="overflow:scroll;">
+     <div class="hotelBox">  
+         <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background:url(images/sb1.png) no-repeat;background-size: 100% 9rem;"></div>
+                <div class="swiper-slide" style="background:url(images/aboutBanner.png) no-repeat;background-size: 100% 9rem;"></div>
+            </div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+        <h4>房间设施</h4>
+        <ul>
+          <li><i class="icon1"></i>床型：大床</li>
+          <li><i class="icon2"></i>宽带：有</li>
+          <li><i class="icon3"></i>电视机：有</li>
+          <li><i class="icon4"></i>冰箱：无</li>
+          <li><i class="icon5"></i>空调：有</li>
+          <li><i class="icon6"></i>洗衣机：有</li>
+          <li><i class="icon7"></i>楼层：2</li>
+          <li><i class="icon8"></i>面积：60㎡</li>
+        </ul>
+        <h4>促销信息</h4>
+        <div class="privilege">
+           <span><i>优惠</i></span>
+           <h4>连住3晚提供自助早餐 RMB58\人</h4>
+        </div>
+        <div class="gift">
+           <span><i>礼</i></span>
+           <h4>2017-02-14至2017-02-16可享受延迟退房至14:00.提供小点心或者热饮一份</h4>
+        </div>
+        <div class="shuoming">
+          <h4>收费退定</h4>
+          <p>提前三天不收费，超过规定时间扣全额的80%</p>
+        </div>
+        <!-- <dl><dt><h3><em>￥</em>100起</h3></dt><dd><a href="/Order/OrderIndex?subRoomTypeID=1&amp;startDate=2017-03-07&amp;endDate=2017-03-08" style="width: 8.8rem;">预订</a></dd></dl> -->
+     </div>
+     <div class="payFor">
+       <dl>
+          <dt><h3><em>￥</em>100</h3><p>关于价格的一些说明</p></dt>
+          <dd><a href="订单填写.html" style="width: 8.8rem;">预订</a></dd>
+       </dl>
+     </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<script>
+$(function(){
+  var swiper = new Swiper('.swiper-container', {//顶部图片切换
+      autoplay :2000,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      speed:300,
+    loop:true
+    });
+})
+</script>
+</body>
+</html>

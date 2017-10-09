@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.contactUs{background:#ffffff;}
+.contactUs .banner{height: 9rem;background:url(../../images/contactBanner.png) no-repeat;background-size: 100% 9rem;}
+.tit{height: 2.5rem;width: 10rem;background:url(../../images/contactTit.png) no-repeat;margin: 1.2rem auto;background-size: 10rem 2.5rem;}
+.contactUs dl{color:#333333;padding: 0 0.75rem;position:relative;display: -webkit-box;display: box;height:1rem;line-height: 1rem;margin-bottom: 1.2rem;}
+.contactUs dl dt{width: 1rem;margin-right: 0.7rem;}
+.contactUs dl dt i{display:block;width:1.9rem;height:1rem;vertical-align: middle;}
+.contactUs dl dt i.icon1{background: url(../../images/ct1.png) no-repeat 4px 0px;background-size: 0.7rem 1rem;}
+.contactUs dl dt i.icon2{background:url(../../images/ct2.png) no-repeat;background-size: 1rem 1rem;}
+.contactUs dl dt i.icon3{background:url(../../images/ct3.png) no-repeat;background-size: 1rem 1rem;}
+.contactUs dl dt i.icon4{background: url(../../images/ct4.png) no-repeat 0px 3px;background-size: 1rem 0.7rem;}
+.contactUs dl dt i.icon5{background:url(../../images/ct5.png) no-repeat;background-size: 1rem 1rem;}
+.contactUs dl dd{-webkit-box-flex: 1;box-flex: 1;display: box;display: -webkit-box;-webkit-box-orient: vertical;-webkit-box-pack: center;font-size:0.75rem;line-height: 1rem;}
+.contactUs dl dd span{font-weight:bold;padding-right: 0.2rem;}
+.contactUs dl dd a{color:#333333;}
+@media only screen and (max-width:374px){
+.contactUs dl dd{font-size: 0.65rem;}
+.tit{height: 2rem;width:9rem;margin: 0.8rem auto;background-size:9rem 2rem;}
+.contactUs .banner{height:7rem;background-size: 100% 7rem;}
+.contactUs dl{margin-bottom: 1rem;}
+}
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+p,span,div,li,a{
+    max-height:9999px;
+}
+html {-webkit-text-size-adjust:none;font-size:62.5%;}
+@media screen and (min-width:320px) and (max-width:349px) {html{font-size:12px;}}
+@media screen and (min-width:350px) and (max-width:399px) {html{font-size:13px;}}
+@media screen and (min-width:400px) and (max-width:499px) {html{font-size:14px;}}
+@media screen and (min-width:500px) and (max-width:599px) {html{font-size:16px;}}
+body{font-family:"微软雅黑"; color:#323232;background:#eeeeee;font-size:12px;font-size:1.2rem ;}
+.clear{clear:both;}
+/* 设置HTML5元素为块 */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+/* 设置图片视频等自适应调整 */
+img {max-width:100%;height:auto;width:auto9; /* ie8 */}
+.video rembed,.video object,.video iframe {width:100%;height:auto;}
+a{text-decoration:none;color: #898484;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+ul li{list-style:none;}
+label,rem{font-weight:normal!important;}

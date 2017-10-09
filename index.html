@@ -1,0 +1,172 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="textml" charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<title>酒店预订</title>
+<link rel="stylesheet"  href="css/sm.css">
+<link rel="stylesheet"  href="css/hotelYd.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+<!--content-->
+<div class="content">
+    <div class="ydBanner">
+       <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background:url(images/indexBanner.png) no-repeat;background-size: 100% 9rem;"></div>
+          <div class="swiper-slide" style="background:url(images/sb1.png) no-repeat;background-size: 100% 9rem;"><span></span></div>
+          <div class="swiper-slide" style="background:url(images/aboutBanner.png) no-repeat;background-size: 100% 9rem;"></div>
+       </div>
+    </div>
+     <div class="searchBox">
+        <div class="borderBottom">
+          <dl>
+            <dt>房型类型</dt>
+            <dd><input type="hidden" id="realValue"><input type="text" placeholder="所有房间" value="所有房间" readonly id='picker'></dd>
+          </dl>
+        </div>
+        <div class="theTime borderBottom">
+           <div class="times">
+              <h5>入住</h5>
+              <p class="text-left"><a href="javascript:void(0);"><input type="text" id="startTime" value="入住日期" /><span id="startWeek">周二</span></a></p>
+           </div>
+           <div class="totalNight"><span id="nightCount">共1晚</span></div>
+           <div class="times times2">
+              <h5>离店</h5>
+              <p class="text-right"><a href="javascript:void(0);"><input type="text" id="endTime" value="离店日期"><span id="endWeek">周二</span></a></p>
+           </div>
+        </div>
+        <div class="subBtn"><input type="button" id="btnSearchHotel" value="查找酒店" onClick="hotelYd.search(this);"></div>
+     </div>
+     <div class="hideBox">
+       <div class="hdLine">
+         <dl id="rz">
+            <dt><i></i></dt>
+            <dd>2017-09-01</dd>
+         </dl>
+         <dl id="ld">
+            <dt><i></i></dt>
+            <dd>2017-09-01</dd>
+         </dl>
+       </div>
+       <div class="resetSearch">
+         房间类型：<span>高级大床房</span>
+         <a href="javascript:void(0);" onClick="hotelYd.reSearch(this);">重新搜索</a>
+       </div>
+     </div>
+    <ul class="showHouses">
+      <li id="1">
+        <dl>
+             <dt><a href="新页面.html"><img src="images/indexSmall.png"></a><div class="youhui"></div></dt>
+             <dd>
+                <dl>
+                   <dt>
+                     <h3>高级大床房（限时秒杀）<i>促</i></h3>
+                     <div class="dtLeft">
+                       无早<span class="orange">免费取消</span>
+                     </div>
+                     <div class="dtRight">
+                       <a href="javascript:void(0);">￥250.00</a>
+                       <span><i>￥</i><em>199</em>起</span>
+                     </div>
+                     <!-- <p>无早<span><i>￥</i><em>199</em>起</span></p> -->
+                   </dt>
+                   <dd class="opMain">
+                     <a class="yDing">预订</a>
+                     <a class="linePay">在线付</a>
+                   </dd>
+                </dl>
+             </dd>
+        </dl>
+      </li>
+      <li id="2">
+         <dl>
+             <dt><a href="新页面.html"><img src="images/indexSmall.png"></a></dt>
+             <dd>
+                <dl>
+                   <dt>
+                     <h3>高级大床房（限时秒杀）</h3>
+                     <div class="dtLeft">
+                       无早<span>不可取消</span>
+                     </div>
+                     <div class="dtRight">
+                       <a href="javascript:void(0);">￥250.00</a>
+                       <span><i>￥</i><em>199</em>起</span>
+                     </div>
+                   </dt>
+                   <dd class="opMain">
+                     <a class="yDing">预订</a>
+                     <a class="linePay">在线付</a>
+                   </dd>
+                </dl>
+             </dd>
+        </dl>
+      </li>
+      <li id="3">
+        <dl>
+             <dt><a href="新页面.html"><img src="images/indexSmall.png"></a></dt>
+             <dd>
+                <dl>
+                   <dt>
+                     <h3>高级大床房（限时秒杀）</h3>
+                     <div class="dtLeft">
+                       无早
+                     </div>
+                     <div class="dtRight">
+                       <a href="javascript:void(0);">￥250.00</a>
+                       <span><i>￥</i><em>199</em>起</span>
+                     </div>
+                   </dt>
+                   <dd class="ydMain">
+                     <a href="#">预订</a>
+                   </dd>
+                </dl>
+             </dd>
+           </dl>
+      </li>
+      <li id="4">
+          <dl>
+             <dt><a href="新页面.html"><img src="images/indexSmall.png"></a></dt>
+             <dd>
+                <dl>
+                   <dt>
+                     <h3>高级大床房（限时秒杀）</h3>
+                     <div class="dtLeft">
+                       无早
+                     </div>
+                     <div class="dtRight">
+                       <a href="javascript:void(0);">￥250.00</a>
+                       <span><i>￥</i><em>199</em>起</span>
+                     </div>
+                   </dt>
+                   <dd class="mfMain">
+                     <a href="javascript:void(0);">满房</a>
+                   </dd>
+                </dl>
+             </dd>
+         </dl>
+      </li>
+    </ul>
+</div>
+<!-- 底部栏 -->
+<nav class="bar bar-tab">
+    <a class="tab-item external active" href="关于我们.html">
+        <span class="icon icon-index"></span>首页
+    </a>
+    <a class="tab-item external" href="反馈意见.html">
+        <span class="icon icon-kf"></span>反馈意见
+    </a>
+</nav>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<script src="js/zepto.js"></script>
+<script type='text/javascript' src="js/sm.js" charset='utf-8'></script>
+<script src="js/ydSearch.js"></script>
+<script src="js/hotelYd.js"></script>
+</body>
+</html>

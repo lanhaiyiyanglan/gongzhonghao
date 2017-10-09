@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="textml" charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<title>订单详情</title>
+<link rel="stylesheet"  href="css/sm.css">
+<link rel="stylesheet"  href="css/orderDetail.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/orderDetail.js"></script>
+</head>
+
+<body>
+<!--content-->
+<div class="content orderDetail">
+   <div class="detailBox">
+      <h3><i></i>酒店信息</h3>
+      <p>订单编号：MT-B1611190007</p>
+      <p>长沙世纪金源大饭店</p>
+      <h4>高级大床房（限时秒杀）<span>1间</span></h4>
+      <h4>入住时间<span>02月13日-02月14日</span>杀）<span>1间</span></h4>
+      <p>地址：长沙市开福区津泰路199号</p>
+      <p>电话：07318595888</p>
+   </div>
+   <div class="detailBox">
+      <h3><i></i>入住人信息</h3>
+      <p>入住人：<span>张三</span></p>
+      <p>入住人：<span>李四</span></p>
+   </div>
+   <div class="detailBox">
+      <h3><i></i>联系人信息</h3>
+      <p>联系人：<span>张三</span></p>
+      <p>联系电话：<span>18000000000</span></p>
+   </div>
+   <div class="detailBox">
+      <h3><i></i>还需支付<span><em>￥</em>438.00</span>元</h3>
+   </div>
+   <div class="detailBox cxiao">
+      <h3>促销信息</h3>
+        <div class="privilege">
+           <span><i>优惠</i></span>
+           <h4>连住3晚提供自助早餐 RMB58\人</h4>
+        </div>
+        <div class="gift">
+           <span><i>礼</i></span>
+           <h4>2017-02-14至2017-02-16可享受延迟退房至14:00.提供小点心或者热饮一份</h4>
+        </div>
+   </div>
+   <ul class="payOrder">
+      <li><a href="支付成功.html" class="payByzfb">到店支付</a></li>
+      <li><a href="支付失败.html" class="payBywx">微信支付</a></li>
+   </ul>
+</div>
+<!--mengban-->
+<div class="mengban">
+     <div class="textArea">
+        <h3>备注：房间将为您保留至1号18：00</h3>
+        <i class="success"></i>
+        <p>提交成功</p>
+        <input type="button" value="确定" onclick="orderDetail.closeSuccessTips(this)">
+     </div>
+</div>
+<!-- 底部栏 -->
+<nav class="bar bar-tab">
+    <a class="tab-item external active" href="关于我们.html">
+        <span class="icon icon-index"></span>首页
+    </a>
+    <a class="tab-item external" href="反馈意见.html">
+        <span class="icon icon-kf"></span>反馈意见
+    </a>
+</nav>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.myOrder{margin-bottom:2.5rem;}
+.buttons-tab i{position:absolute;width: 20%;height:1.5rem;line-height:1.5rem;border: 0.05rem solid #0894ec;right: 0;background:#fff;color:#434343;font-style:normal;font-size: 0.6rem;display: none;top: 1.95rem;text-align: center;}
+.needpayList{min-height:5rem;overflow:hidden;}
+.needpayList li{box-shadow: 0 0.05rem 0.1rem rgba(210,210,210,0.8);min-height:4rem;overflow:hidden;margin-top: 0.3rem;background:#fff;}
+.needpayList li > div{padding:0 0.5rem;}
+.orderNum{padding:0 0.5rem;font-size:0.6rem;line-height:1.9rem;border-bottom:0.05rem solid #ececec;}
+.orderNum h4{font-weight:normal;display: inline-block;}
+.orderNum i{font-style:normal;float: right;display: block;color: #f08519;}
+.payHotel h3{color: #434343;font-size: 0.65rem;font-weight:normal;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.payHotel h3 span{float: right;font-size: 0.6rem;}
+.payHotel{background: url(../../images/bed.png) no-repeat 0px 5px;background-size:0.85rem;margin-left: 0.5rem;margin-right: 0.5rem;text-indent: 1rem;margin-top: 0.3rem!important;}
+.payHotel p{color: #a8a9aa;font-size:0.6rem;margin: 0;padding-top: 0.2rem;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.hotelTime{color: #434343;font-size:0.6rem;background: url(../../images/clock.png) no-repeat 3px 2px;background-size: 0.7rem;margin-left: 0.5rem;text-indent: 1rem;margin-top: 0.5rem;}
+.hotelSite{color: #434343;font-size:0.6rem;background: url(../../images/siteAt.png) no-repeat left;background-size: 0.6rem 0.87rem;margin-left: 0.5rem;text-indent: 0.8rem;line-height: 1.6rem;}
+.neepay{color:#a8a9aa;font-size: 0.6rem;padding-top: 0.7rem!important;padding-bottom: 1rem!important;min-height: 1rem;overflow: hidden;text-align: left;line-height: 1.5rem;text-indent: 1rem;}
+.neepay span{color:#f08519;}
+.neepay span i{font-size: 1rem;font-style:normal;vertical-align: top;}
+.neepay > p{display:inline-block;float:right;text-align: center;text-indent: 0rem;}
+.neepay a{border:0.05rem solid #4c9cfb;background: #fff;padding: 0rem 0.8rem;border-radius: 0.2rem;margin-left: 0.5rem;color: #4c9cfb;display: inline-block;height: 1.5rem;line-height: 1.5rem;}
+.neepay .contactHotel{color:#fff;background:#4c9cfb;}
+.nofind{display:block;margin:0 auto;width:10rem;height:9.8rem;}
+@media only screen and (max-width:374px){
+.neepay a {padding: 0rem 0.4rem;}
+.neepay{padding-top: 0.5rem!important;padding-bottom: 0.8rem!important;}
+.neepay span i {font-size: 0.85rem;}
+.needpayList li > div {padding: 0 0.3rem;}
+.myOrder{margin-bottom: 2rem;}
+.nofind{width: 9rem;height: 8.8rem;}
+}
+
+.loading{font-size:0.75rem;font-family: '微软雅黑';text-align: center;line-height:2rem;}
+.loading img{vertical-align: middle;width:1rem;height:1rem;}
+
+/*.addMore{font-size:0.75rem;font-family: '微软雅黑';text-align: center;line-height:2rem;display:block;}*/
+#addMore{font-size:0.75rem;font-family: '微软雅黑';text-align: center;line-height:2rem;display:block;width: 8rem;margin: 0.5rem auto;background: #4899fa;color: #fff;border-radius: 0.3rem;}
+
+

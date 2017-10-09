@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.shaomaContent{background:#fff;}
+.shaomaBox{margin: 0 auto;border:0.05rem solid #e4e4e4;box-shadow: 0 0 1.5rem #c1c1c1;margin-top: 4.5rem;width: 90%;min-height: 4rem;overflow: hidden;border-radius: 0.2rem;}
+.shaomaBox p{padding: 3.5rem 0 3rem 0;}
+.shaomaBox p img{display:block;margin:0 auto;width:8.2rem;height:8.2rem;padding:0.2rem;border:0.05rem solid #eaeaea;}
+.smTip{position:relative;height:0.05rem;background:#d1d1d1;line-height:0.05rem;width: 90%;margin: 0 auto;margin-bottom: 4.5rem;}
+.smTip span{color:#666666;background:#fff;position:absolute;width: 8rem;text-align: center;left: 50%;margin-left: -4rem;}
+@media only screen and (max-width:374px){
+ .shaomaBox{margin-top:2rem;}
+ .shaomaBox p{padding:2.8rem 0 2.1rem 0;}
+ .smTip{margin-bottom:3.7rem;font-size:0.6rem;}
+ .shaomaBox p img{width: 7rem;height: 7rem;}
+ .smTip span{width: 5.6rem;margin-left: -2.8rem;}
+}
